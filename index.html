@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/swarovski.ico" type='image/x-ico' />
+    <link rel="stylesheet" href="css/iconfont.css">
+    <title>Swarovski Crystal Jewelry, Accessories, Watches &amp;amp; Figurines | Swarovski</title>
+       
+</head>
+<body style="overflow-x: hidden;">
+    <!-- top-bar -->
+    <div class="top_bar"></div>
+
+    <!-- top-white -->
+    <div class="top_white"></div>
+    <!-- container-header -->
+    <div class="container_header">
+        <div class="toprow">
+            <div class="header_left">
+                <a href="#">
+                    <span class="iconfont icon-diqiu"></span>
+                    <span class="uppercase">|</span>
+                    <span class="separator">中国大陆地区</span>
+                    <span class="iconfont icon-arrow-bottom"></span>
+                    <span class="iconfont icon-location">
+                        <span class="link_text">店铺</span>
+                    </span>
+                </a>
+            </div>
+            <div class="header_right">
+                <a href="#">
+                    <span class="link_text">手机礼品列表</span>
+                    <span class="iconfont icon-shoucang"></span>
+                    <span class="uppercase">|</span>
+                    <span class="link_text_denglu">登录</span>
+                    <span class="iconfont icon-user"></span>
+                    <span class="uppercase">|</span>
+                    <span class="link_text_SWARPOVSKI">BE SWARPOVSKI</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- header_logo -->
+    <div class="header_logo">
+        <img class="logo" src="img/logo.jpg">
+            <input type="text" class="sos" placeholder="搜索">
+            <span class="iconfont icon-gouwudai"></span>
+            <span class="iconfont icon-sousuokuang"></span>
+    </div>
+    <div class="header_nav">
+        <div class="nav">
+            <ul>
+                <li><a href="#">双11耀你闪亮</a></li>
+                <li class="new"><a href="#">新品上市</a></li>
+                <li><a href="#">首饰</a></li>
+                <li><a href="#">高级珠宝</a></li>
+                <li><a href="#">腕表</a></li>
+                <li><a href="#">配饰</a></li>
+                <li><a href="#">装饰摆件</a></li>
+                <li><a href="#">礼品中心</a></li>
+                <li><a href="#">精选系列</a></li>
+                <li><a href="#">潮流时尚</a></li>
+                <li><a href="#">会籍</a></li>
+            </ul>
+         </div>
+    </div>
+
+    <!-- banner -->
+    <div id="oBox">
+            <div class="oImgBox">
+                <img class="oImg" src="img/banner1.jpg"></a>
+                <img class="oImg" src="img/banner2.jpg"></a>
+                <img class="oImg" src="img/banner3.jpg"></a>
+            </div>
+            <span id="btn_pre"><</span>
+            <span id="btn_next">></span>
+           
+            <ul class="pointList">
+                <li class="point" data-index="0"></li>
+                <li class="point" data-index="1"></li>
+                <li class="point" data-index="2"></li>
+               <!-- 自定义标签属性 标签里存数据 -->
+            </ul>
+            <div class="content_text">
+                双11耀你闪亮
+                <div class="blackbox">探索更多</div>
+            </div>
+    </div>
+
+    <!-- section -->
+    <div class="row">
+        <div class="divder">
+            <img src="img/zuanshi.png" alt="">
+            <div class="diver_txt">璀璨夜晚</div>
+        </div>
+        <div class="imgboxflex">
+            <div class="imgbox"><img src="img/imgbox1.jpg" >新品上市</div>
+            <div class="imgbox"><img src="img/imgbox2.jpg" >挂饰</div>
+            <div class="imgbox"><img src="img/imgbox3.jpg" >手链</div>
+            <div class="imgbox"><img src="img/imgbox4.jpg" >项链</div>
+            <div class="imgbox"><img src="img/imgbox5.jpg" >耳环</div>
+            <div class="imgbox"><img src="img/imgbox6.jpg" >腕表</div>
+            <div class="imgbox"><img src="img/imgbox7.jpg" >戒指</div>
+            <div class="imgbox img8"><img src="img/imgbox8.jpg" >SWROVSKI REMIX</div>
+        </div>
+        <div class="divder2">
+            <img src="img/zuanshi.png" alt="">
+            <div class="diver_txt">璀璨夜晚</div>
+            <span>借助Swarovski Symbolic Moon & Star系列大放异彩。</span>
+        </div>
+        <div class="va-cell">
+           <img class="va" src="img/va.jpg" alt="">
+           <span class="iconfont icon-bofang"></span>
+           <div>
+                <video class="videobox" width="970" height="551" controls onended="showImg()">
+                        <source src="img/video/swarovski.mp4" type="video/mp4">
+                        <!-- <object data="img/video/" width="320" height="240">
+                            <embed width="970" height="551" src="img/video/movie.swf">
+                        </object> -->
+                </video>
+                <button class="gb">关闭</button>
+           </div>
+        </div>    
+    </div>
+        
+</body>
+</html>
+<script src="js/jQuery.js"></script>
+<script src="js/banner.js"></script>
+<script>
+    $(document).ready(function(e) {
+    $(".icon-bofang").click(function(e) {
+        $(".va").toggle();
+        $(".icon-bofang").toggle();
+        $(".videobox").toggle();
+        $(".gb").toggle();
+    });
+    $(".gb").click(function(e){
+        $(".videobox").toggle();
+        $(".va").toggle();
+        $(".icon-bofang").toggle();
+        $(".gb").toggle();
+    });
+});
+
+</script>
